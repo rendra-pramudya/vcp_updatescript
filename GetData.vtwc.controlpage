@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<element name="FF_TEST_RESULT_EL_US"  description="25/AK/ALASKA/10000" template="FF_TEST_RESULT_EL_US" complete="true" layer="[MAIN]" isfilescript="false" showautodescription="true" scene="ARTIST/AJCS-RENDRA/TRAINING/VizrtPayload/FF_TEST_RESULT_EL_US">
+  <entry name="viz">
+    <entry name="location">$object</entry>
+    <entry name="front"><entry name="scene" timestamp="1709917680">ARTIST/AJCS-RENDRA/TRAINING/VizrtPayload/FF_TEST_RESULT_EL_US</entry></entry>
+    <entry name="load">scene</entry>
+    <entry name="viz_layer">MAIN</entry>
+    <entry name="use_all_directors">yes</entry>
+    
+<entry name="directors">
+   <entry name="Default">
+      <entry name="keyframes"/>
+      <entry name="duration">0</entry>
+   </entry>
+</entry>
+    <entry name="fonts">
+    </entry>
+  </entry>
+  <entry name="template">FF_TEST_RESULT_EL_US</entry>
+  <entry name="template_path">/data/VTW/RENDZLAPTOP/dataitems/VTW_ACTIVE_TEMPLATE</entry>
+<schema><field name="PercentData" type="double" description="PercentData" min="0" max="100"/><field name="StateID" type="text" description="StateID" singleline="True" location="1/2/2"/><field name="StateName" type="text" description="StateName" singleline="True" location="1/2/1"/><field name="TotalVoters" type="float" description="TotalVoters"/></schema>
+<entry name="data">
+    <entry name="PercentData" description="PercentData">
+      <entry name="PercentData"  description="PercentData" type="double" min="0" max="100">25</entry>
+
+    </entry>
+    <entry name="StateID" description="StateID">
+      <entry name="StateID"  description="StateID" type="text" singleline="true" location="1/2/2">AK</entry>
+
+    </entry>
+    <entry name="StateName" description="StateName">
+      <entry name="StateName"  description="StateName" type="text" singleline="true" location="1/2/1">ALASKA</entry>
+
+    </entry>
+    <entry name="TotalVoters" description="TotalVoters">
+      <entry name="TotalVoters"  description="TotalVoters" type="float">10000</entry>
+
+    </entry>
+</entry>
+<entry name="dblink"/>
+<entry name="settings">
+   <entry name="tabfields">
+      <entry name="PercentData"/>
+      <entry name="StateID"/>
+      <entry name="StateName"/>
+      <entry name="TotalVoters"/>
+   </entry>
+   <entry name="isfilescript">false</entry>
+</entry></element>

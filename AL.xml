@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='utf-8'?>
+<payload>
+    <field name="PercentData" mediatype="text/plain">
+      <value>30</value>
+    </field>
+	<field name="StateName" mediatype="text/plain">
+      <value>ALABAMA</value>
+    </field>
+	<field name="TotalVoters" mediatype="text/plain">
+      <value>1332540</value>
+    </field>
+</payload>

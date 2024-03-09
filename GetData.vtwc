@@ -1,0 +1,236 @@
+object frmTemplateDesign: TfrmTemplateDesign
+  Tag = 10006
+  Left = 0
+  Top = 0
+  BorderIcons = []
+  BorderStyle = bsNone
+  Caption = 
+    '[FF_STATE_RESULT] - SCENE*ARTIST/AJCS-RENDRA/TRAINING/VizrtPaylo' +
+    'ad/FF_TEST_RESULT_EL_US'
+  ClientHeight = 589
+  ClientWidth = 1377
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'MS Sans Serif'
+  Font.Style = []
+  KeyPreview = True
+  OldCreateOrder = True
+  Scaled = False
+  Visible = True
+  OnActivate = FormActivate
+  OnCreate = FormCreate
+  OnDestroy = FormDestroy
+  OnKeyDown = FormKeyDown
+  OnPaint = FormPaint
+  PixelsPerInch = 96
+  TextHeight = 13
+  object TTWUniLabel1: TTWUniLabel
+    Left = 10
+    Top = 50
+    Width = 63
+    Height = 13
+    Caption = 'StateName'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = 34541327
+    Font.Height = -11
+    Font.Name = 'Verdana'
+    Font.Style = []
+    ParentFont = False
+    Transparent = True
+    OnClick = ControlClick
+    OnDragDrop = ControlDragDrop
+    OnDragOver = ControlDragOver
+    UHPathIsRelative = False
+  end
+  object TDragEdit1: TDragEdit
+    Left = 10
+    Top = 25
+    Width = 50
+    Height = 21
+    TabOrder = 0
+    Text = '25'
+    OnClick = ControlClick
+    OnDragDrop = ControlDragDrop
+    OnDragOver = ControlDragOver
+    ControlObjectName = 'PercentData'
+    Value = '25'
+    MinValue = '0'
+    MaxValue = '100'
+    IntegerMode = False
+    Increment = 10
+    ValueChangedOnKeypress = False
+  end
+  object TTWUniEdit1: TTWUniEdit
+    Left = 10
+    Top = 65
+    Width = 160
+    Height = 20
+    Color = 50331647
+    Ctl3D = False
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = 34541327
+    Font.Height = -12
+    Font.Name = 'Verdana'
+    Font.Style = []
+    ParentCtl3D = False
+    ParentFont = False
+    TabOrder = 1
+    Text = 'ALASKA'
+    OnClick = ControlClick
+    OnDragDrop = ControlDragDrop
+    OnDragOver = ControlDragOver
+    HideOnEmpty = False
+    ControlObjectName = 'StateName'
+    UHPathIsRelative = False
+  end
+  object TDragEdit2: TDragEdit
+    Left = 10
+    Top = 107
+    Width = 70
+    Height = 21
+    TabOrder = 2
+    Text = '10000'
+    OnClick = ControlClick
+    OnDragDrop = ControlDragDrop
+    OnDragOver = ControlDragOver
+    ControlObjectName = 'TotalVoters'
+    Value = '10000'
+    MinValue = '-10000'
+    MaxValue = '10000'
+    IntegerMode = False
+    Increment = 10
+    ValueChangedOnKeypress = False
+  end
+  object TTWUniEdit2: TTWUniEdit
+    Left = 11
+    Top = 140
+    Width = 160
+    Height = 20
+    Color = 50331647
+    Ctl3D = False
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = 34541327
+    Font.Height = -12
+    Font.Name = 'Verdana'
+    Font.Style = []
+    MaxLength = -1
+    ParentCtl3D = False
+    ParentFont = False
+    TabOrder = 3
+    Text = 'AK'
+    OnClick = ControlClick
+    OnDragDrop = ControlDragDrop
+    OnDragOver = ControlDragOver
+    HideOnEmpty = False
+    ControlObjectName = 'StateID'
+    UHPathIsRelative = False
+  end
+  object txtURL: TTWUniEdit
+    Left = 240
+    Top = 48
+    Width = 121
+    Height = 20
+    Color = 50331647
+    Ctl3D = False
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = 34541327
+    Font.Height = -12
+    Font.Name = 'Verdana'
+    Font.Style = []
+    ParentCtl3D = False
+    ParentFont = False
+    TabOrder = 4
+    Text = '?id=AL'
+    OnClick = ControlClick
+    OnDragDrop = ControlDragDrop
+    OnDragOver = ControlDragOver
+    HideOnEmpty = False
+    UHPathIsRelative = False
+  end
+  object TWUniMemo1: TTWUniMemo
+    Left = 240
+    Top = 96
+    Width = 424
+    Height = 360
+    Color = 50331647
+    Ctl3D = False
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = 34541327
+    Font.Height = -12
+    Font.Name = 'Verdana'
+    Font.Style = []
+    Lines.Strings = (
+      '<?xml version='#39'1.0'#39' encoding='#39'utf-8'#39'?>'
+      '<payload>'
+      '    <field name="PercentData" mediatype="text/plain">'
+      '      <value>30</value>'
+      '    </field>'
+      #9'<field name="StateName" mediatype="text/plain">'
+      '      <value>ALABAMA</value>'
+      '    </field>'
+      #9'<field name="TotalVoters" mediatype="text/plain">'
+      '      <value>1332540</value>'
+      '    </field>'
+      '</payload>')
+    ParentCtl3D = False
+    ParentFont = False
+    TabOrder = 5
+    OnClick = ControlClick
+    OnDragDrop = ControlDragDrop
+    OnDragOver = ControlDragOver
+    HideOnEmpty = False
+    UHPathIsRelative = False
+  end
+  object btnUpdateFields: TTWUniButton
+    Left = 512
+    Top = 40
+    Width = 100
+    Height = 23
+    Caption = 'btnUpdateFields'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = 34541327
+    Font.Height = -11
+    Font.Name = 'Verdana'
+    Font.Style = []
+    ParentFont = False
+    TabOrder = 6
+    OnClick = ControlClick
+    OnDragDrop = ControlDragDrop
+    OnDragOver = ControlDragOver
+    Color = 46972345
+  end
+  object DCScripter1: TDCScripter
+    Events = <
+      item
+        CallExisting = True
+        Component = btnUpdateFields
+        Event = 'OnClick'
+        ScriptMethod = 'btnUpdateFieldsClick'
+      end>
+    Language = 'VBScript'
+    Script.Strings = (
+      'Const strBaseURL = "http://localhost:8000/"'
+      ''
+      'Sub UpdateFields()'
+      '        Dim receivedData'
+      '        Set receivedData = CreateObject("MSXML2.XMLHTTP")'
+      
+        '        receivedData.open "GET", strBaseURL & "/" & txturl.Text,' +
+        ' False'
+      '        receivedData.send'
+      ''
+      '        if receivedData.responseText = "404" then'
+      '                exit sub'
+      '        end if'
+      ''
+      'TWUniMemo1.UTF8Text = receivedData.responseText'
+      'end sub'
+      ''
+      ''
+      'Sub btnUpdateFieldsClick(Sender)'
+      'UpdateFields'
+      'End sub')
+  end
+end
